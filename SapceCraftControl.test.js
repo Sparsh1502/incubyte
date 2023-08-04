@@ -9,4 +9,10 @@ describe('Test for only function SpaceCraftControl',()=>{
     })
     });
     
+    describe('Test for directions',()=>{
+        it('Finding index',()=>{
+     expect(DirectionIndex('Down')).toBe(5);
+     expect(DirectionIndex('N')).toBe(0);
+        }) ;
+    });
     
