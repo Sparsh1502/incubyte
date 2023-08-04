@@ -46,6 +46,13 @@ function moveForwardOrBackward(step){
     }
 }
 
+function turnLeftOrRight(rotates){
+    let currentIndex = DirectionIndex(currentDirection);
+    let newIndex = (currentIndex + rotates + 4)%4;
+    currentDirection = directions[newIndex];
+   }
+   
 
-module.exports = {SpaceCraftControl,DirectionIndex,moveForwardOrBackward};
+
+module.exports = {SpaceCraftControl,DirectionIndex,moveForwardOrBackward,turnLeftOrRight};
 
