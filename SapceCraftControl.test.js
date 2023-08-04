@@ -22,3 +22,10 @@ describe('Test for only function SpaceCraftControl',()=>{
             expect(moveForwardOrBackward(-1)).toBe();
         })
     })
+
+    describe('Test for turning left or right',()=>{
+        it('returns nothing',()=>{
+            expect(turnLeftOrRight(1)).toBe();
+            expect(turnLeftOrRight(-1)).toBe();
+        })
+        })
