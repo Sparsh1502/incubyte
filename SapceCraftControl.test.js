@@ -29,3 +29,11 @@ describe('Test for only function SpaceCraftControl',()=>{
             expect(turnLeftOrRight(-1)).toBe();
         })
         })
+
+    
+describe('turn u or d',()=>{
+    it('up down',()=>{
+        expect(turnUpOrDown(1)).toBe();
+        expect(turnUpOrDown(-1)).toBe();
+    })
+})
