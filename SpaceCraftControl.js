@@ -5,3 +5,4 @@ function SpaceCraftControl(initialPosition, initialDirection,commands ) {
 }
 
 module.exports = SpaceCraftControl;
+
