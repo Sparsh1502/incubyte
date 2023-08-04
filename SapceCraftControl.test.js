@@ -1,4 +1,4 @@
-const SpaceCraftControl = require('./SpaceCraftControl');
+const {SpaceCraftControl,DirectionIndex} = require('./SpaceCraftControl');
 
 describe('Test for only function SpaceCraftControl',()=>{
     it('returns array with  empty commands array',()=>{
