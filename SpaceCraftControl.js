@@ -52,7 +52,10 @@ function turnLeftOrRight(rotates){
     currentDirection = directions[newIndex];
    }
    
+   function turnUpOrDown(rotates){
+    currentDirection = rotates===1?(directions[4]):directions[5]
+}
 
 
-module.exports = {SpaceCraftControl,DirectionIndex,moveForwardOrBackward,turnLeftOrRight};
+module.exports = {SpaceCraftControl,DirectionIndex,moveForwardOrBackward,turnLeftOrRight,turnUpOrDown};
 
